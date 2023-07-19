@@ -454,6 +454,18 @@ small{
     }
 
 
+
+    .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner ul{
+        display: grid;
+        place-content: center;
+    }
+
+
     .grid{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -468,6 +480,10 @@ small{
 
     .game img{
         width: 50px;
+    }
+
+    .career{
+        text-align: center;
     }
 }
 
