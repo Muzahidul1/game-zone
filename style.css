@@ -361,7 +361,7 @@ figcaption{
 }
 
 .game img{
-    width: 30px;
+    width: 25px;
 }
 
 /* game category style end */
@@ -392,6 +392,10 @@ footer{
 
 .footer-logo-container img{
     width: 80px;
+}
+
+.tab-none{
+    display: none;
 }
 
 
