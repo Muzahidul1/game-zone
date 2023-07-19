@@ -394,7 +394,7 @@ footer{
     width: 80px;
 }
 
-.tab-none{
+.footer-none{
     display: none;
 }
 
@@ -489,6 +489,10 @@ small{
     .career{
         text-align: center;
     }
+
+    .footer-none{
+        display: inline;
+    }
 }
 
 
@@ -522,8 +526,22 @@ small{
         flex-direction: row;
         align-items: center;
         gap: 40px;
+        justify-content: space-between;
     }
 
+
+    .banner-img-container{
+        width: 55%;
+    }
+
+    .banner-text{
+        width: 40%;
+        padding: 20px;
+    }
+
+    #rogue-btn{
+        margin-bottom: 20px;
+    }
    
 
     /* funny videos style */
@@ -608,6 +626,10 @@ small{
 
     .gamer-img{
         width: 50%;
+    }
+
+    .footer-none{
+        display: inline;
     }
 
 }
