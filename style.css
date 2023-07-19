@@ -299,6 +299,35 @@ figcaption{
 
 /* play-text style end */
 
+
+/* career section style */
+
+.career{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 30px 0;
+}
+
+.career h2{
+    color: #FFF;
+}
+
+.career p{
+    color: white;
+    margin: 15px 0;
+}
+
+.career-btn{
+    color: #F948B2;
+    margin-bottom: 20px;
+}
+
+.career-img{
+    padding: 20px;
+}
+
+/* career section style */
+
+
 /* game category style start */
 
 .game-category-section{
@@ -513,6 +542,25 @@ small{
     .text-right{
         text-align: right;
     }
+
+
+    /* career section style start */
+
+    .career-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .career-text{
+        width: 48%;
+    }
+
+    .career-img{
+        width: 48%;
+    }
+
+    /* career section style end */
 
 
     /* category section */
