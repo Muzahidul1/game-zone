@@ -216,9 +216,6 @@ figcaption{
     padding-left: 80px;
 }
 
-.play-img{
-    
-}
 
 .absolute{
     position: absolute;
@@ -228,6 +225,43 @@ figcaption{
 }
 
 /* play-text style end */
+
+/* game category style start */
+
+.game-category-section{
+    padding: 50px 0;
+    margin: 30px 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.game-category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.game:hover{
+    /* border: 1px solid #F948B2; */
+    outline: 1px solid #F948B2;
+    color: #F948B2;
+}
+
+.game img{
+    width: 50px;
+}
+
+/* game category style end */
 
 
 
@@ -307,10 +341,13 @@ figcaption{
 
     .play-section-text{
         width: 37%;
+        text-align: left;
     }
 
     .text-right{
         text-align: right;
     }
+
+
 
 }
